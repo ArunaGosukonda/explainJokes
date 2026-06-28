@@ -1,6 +1,6 @@
 import streamlit as st
-import openai
 import os
+from openai import OpenAI
 
 token = os.environ.get("GITHUB_TOKEN")
 endpoint = "https://models.inference.ai.azure.com"
